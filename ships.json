@@ -1,0 +1,33 @@
+{
+	"ships": [
+		{
+			"id": 0,
+			"name": "the black pearl",
+			"location": "Sicily",
+			"created_in": "1950-02-14",
+			"is_carrying_treasure": "false"
+		},
+		{
+			"id": 1,
+			"name": "Martha",
+			"location": "Greece",
+			"created_in": "1965-11-01",
+			"is_carrying_treasure": "false"
+		},
+		{
+			"id": 2,
+			"name": "Redbreast",
+			"location": "the Caribbean",
+			"created_in": "1987-6-24",
+			"is_carrying_treasure": "true"
+		},
+		{
+			"id": 3,
+			"name": "Cornelia",
+			"location": "Greece",
+			"created_in": "1999-12-12",
+			"is_carrying_treasure": "true"
+		},
+		{ "id": 4, "name": "Osiris", "location": "Sicily", "created_in": "2010-02-14", "is_carrying_treasure": "true" }
+	]
+}

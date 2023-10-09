@@ -1,0 +1,36 @@
+<html>
+    check
+    <script>
+        let p = {
+            "name": "kafa",
+            "gender": "prefers not to say",
+            "profession": "pazamink sailor",
+            "birthday": "1920-08-22",
+            "ship": 3,
+            "has_wooden_leg": true
+        };
+        Submit(p);
+        function Submit(p) {
+    fetch("http://localhost:6969/pirates/29/update", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(p)
+    })
+      .then(dat => {
+        comments = [newComment, ...comments];
+        newComment = {
+          userName: "סתם מישהו",
+          text: "דעתי החשובה מאוד באשר לאיש הסגול",
+          article
+        };
+      })
+      .then(dat => {})
+      .catch(err => {
+        alert(err);
+      });
+  }
+
+
+
+        </script>
+    </html>
